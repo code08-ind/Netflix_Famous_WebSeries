@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(135, 253, 253);
+}
+
+div.container {
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+div.container h1 {
+  background-color: #fceddf;
+  padding: 15px 30px;
+  color: rgb(255, 138, 117);
+  border-radius: 25px;
+  text-shadow: 0px 2px 4px #ffe9c5;
+  font-family: 'Cinzel', serif;
+}
+
+div.imgs {
+  margin-top: 40px;
+}
